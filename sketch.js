@@ -21,10 +21,6 @@ function setup() {
 function draw() {
   background("black");
 
-  textSize(20);
-  fill("red");
-  text("SOORY FOR VERY LATE MAM",90,30);
-
 
   if (wall.x - bullet.x < (bullet.width+wall.width) / 2) {
     bullet.velocityX = 0;
